@@ -1,6 +1,10 @@
+language: node_js
+node_js:
+  - "node"
+
 deploy:
   provider: surge
-  project: "./www/"
+  project: ./www/
   domain: dnam.dk
   on:
     branch: master
